@@ -10,7 +10,7 @@ class PagamentoCartaoCredito implements Pagamento {
     }
 
     public String processarPagamento(double valor) {
-        return "Processando Processando pagamento com cartão de crédito no valor de R$" + valor;
+        return "Pagamento com cartão de crédito processado com sucesso. Valor: R$" + valor;
     }
 }
 
